@@ -152,7 +152,7 @@ Resources:
         - IpProtocol: tcp
           FromPort: 80
           ToPort: 80
-          SourcePrefixListId: pl-3b927c52
+          SourcePrefixListId: pl-67a5400e
 
   ApplicationLoadBalancer:
     Type: AWS::ElasticLoadBalancingV2::LoadBalancer
