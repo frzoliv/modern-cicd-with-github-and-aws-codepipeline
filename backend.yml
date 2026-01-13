@@ -232,7 +232,7 @@ Resources:
             - Name: HOTEL_NAME
               Value: !Ref HotelName
             - Name: DYNAMODB_ENDPOINT
-              Value: "https://dynamodb.us-east-1.amazonaws.com"
+              Value: !Sub "https://dynamodb.${AWS::Region}.amazonaws.com"
           LogConfiguration:
             LogDriver: awslogs
             Options:
